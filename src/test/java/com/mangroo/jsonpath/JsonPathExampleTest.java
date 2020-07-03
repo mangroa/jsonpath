@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import static org.junit.Assert.assertEquals;
 
-public class JsonPathExample {
+public class JsonPathExampleTest {
 
-    private Logger logger = LoggerFactory.getLogger(JsonPathExample.class);
+    private Logger logger = LoggerFactory.getLogger(JsonPathExampleTest.class);
 
     @Test
     public void extractValue() throws Throwable {
